@@ -1,0 +1,31 @@
+{
+    "name": "Data set for :  Costa Rica",
+    "columns": [
+        {
+            "column name": "Year",
+            "dtype": "int32",
+            "contains": "Year",
+            "WDI Indicator": "Year",
+            "WDI Code": "Year"
+        },
+        {
+            "column name": "Primary Enrollment",
+            "dtype": "int32",
+            "contains": " Annual Primary Education Enrollment ",
+            "WDI Indicator": "Primary education, pupils",
+            "WDI Code": "SE.PRM.ENRL"
+        },
+        {
+            "column name": "GDP per capita - LCU",
+            "dtype": "float64",
+            "contains": "GDP per capita in Local Currency",
+            "WDI Indicator": "GDP per capita (constant LCU)",
+            "WDI Code": "NY.GDP.PCAP.KN"
+        }
+    ],
+    "dtypes": {
+        "Year": "int32",
+        "Primary Enrollment": "int32",
+        "GDP per capita - LCU": "float64"
+    }
+}
